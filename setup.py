@@ -21,9 +21,10 @@ setup(
         "numba>=0.50.1",
         "umap-learn>=0.4.6",
         "dill",
-        "anndata>=0.7.4",
-        "h5py<=2.10.0",
+        "anndata",
+        "h5py",
         "harmonypy",
+	"hnswlib",
     ],
     extras_require={
         "louvain": ["louvain", "cython", "python-igraph"],
